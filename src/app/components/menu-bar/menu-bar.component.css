@@ -1,0 +1,9 @@
+
+.container_menu-bar > ul{
+    flex-direction: row;
+    display: flex;
+}
+.container_menu-bar > ul > li{
+    margin-left: 50px;
+    list-style: none;
+}
