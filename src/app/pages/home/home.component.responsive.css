@@ -1,0 +1,26 @@
+@media screen and (max-width:1370px){
+    .articles{
+        display: block;
+        box-sizing: border-box;
+        justify-content: center;
+        width: 100%;
+    }
+    hr{
+        height: 100px;
+        opacity: 0%;
+    }
+    
+}
+@media screen and (max-width:440px){
+    .articles{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        justify-content: center;
+        
+    }
+    .articles_others{
+        flex-direction: column;
+        display: flex;
+    }
+}

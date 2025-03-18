@@ -18,3 +18,30 @@ header{
     justify-content: center;
     margin-top: 15px;
 }
+.articles_art{
+    width: 100%;
+    background-color: white;
+    height: 400px;
+}
+.destaques > h1{
+    font-size: 35px;
+}
+.footer_ajuste{
+    display: flex;
+    flex-direction: column;
+}
+.footer {
+    height: 150px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    box-sizing: border-box;
+}
+.footer > footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

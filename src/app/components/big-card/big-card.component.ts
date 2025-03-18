@@ -1,11 +1,20 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-big-card',
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './big-card.component.html',
-  styleUrl: './big-card.component.css'
+  styleUrls: [
+    './big-card.component.css',
+    './big-card.component.responsive.css'
+  ]
 })
 export class BigCardComponent {
-  gameName:string[]=["Grant theft auto VI" , "Split Fiction", "The Last Of Us"]
+  @Input () Id:string=""
+  @Input () gameName:string=""
+  @Input () photoCover:string=""
+  @Input () cardTitle:string=""
+  @Input () cardDescription:string=""
+        
 } 

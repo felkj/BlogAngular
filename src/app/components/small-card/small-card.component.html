@@ -1,16 +1,16 @@
 <div class="container_small-card">
     <div class="container_hr">
-        <div class="small-card_img">
-            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202411/2918/887820d47d0128244ee4a4b52b1b9dbf27e93b9c690b5627.png"
+        <div class="small-card_img" >
+            <img src="{{photoCover}}"
             alt=""
+            [routerLink]="['content', Id]"
             srcset="">
         </div>
         <div class="secondnews">
-            <p class="gameName">{{gameName[0]}}</p>
+            <p class="gameName">{{gameName}}</p>
             <div class="small_card-title">
-                <a  href=""> 
-                <h1>Analista acredita que GTA 6 pode ser um grande sucesso no Xbox Series S por motivo simples:
-                seria a maneira mais barata de jogar o mundo aberto da Rockstar</h1>
+                <a  [routerLink]="['content', Id]"> 
+                <h1>{{cardTitle}}</h1>
                 </a>
             </div>
         </div>

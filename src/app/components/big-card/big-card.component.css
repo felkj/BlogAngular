@@ -24,3 +24,6 @@
 .manchete{
     text-decoration: underline;
 }
+.responsive_img{
+    display: none;
+}
